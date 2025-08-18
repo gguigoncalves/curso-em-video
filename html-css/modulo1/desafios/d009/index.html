@@ -5,22 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <title>Meus vídeos</title>
+  <style>
+    body {
+      background-color: #161616;
+      font-family: Arial, sans-serif;
+      color: white;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+
+    .todas-imagens{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  </style>
 </head>
 <body>
   <h1>Vídeos legais para assistir</h1>
-  <div>
-    <a href="pag002.html" target="_blank"><img src="images/imagem-video1.png" alt="Imagem do primeiro vídeo"></a>
-    <img src="images/imagem-video2.png" alt="Imagem do segundo vídeo">
-    <br>
-    <img src="images/imagem-video3.png" alt="Imagem do terceiro vídeo">
-    <img src="images/imagem-video4.png" alt="Imagem do quarto vídeo">
-  </div>
-  <!-- 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/rx8EhkXk9zs?si=-PybhwoIFXjI8g_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/i7L19SOqbNM?si=-dZ0P2xKEdx5frrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <br>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/GkS9RUi_UcQ?si=IVrTiNx9XoZIuSjv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/XYY1uF9czgM?si=bYdu1Ub7Pl6UQbeH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  -->
+  <section class="todas-imagens">
+    <div class="imagens-linha1">
+      <a href="pag002.html">
+        <img src="images/imagem-video1.png" alt="Imagem do primeiro vídeo">
+      </a>
+      <a href="pag003.html">
+        <img src="images/imagem-video2.png" alt="Imagem do segundo vídeo">
+      </a>
+    </div>
+    <div class="imagens-linha2">
+      <a href="pag004.html">
+        <img src="images/imagem-video3.png" alt="Imagem do terceiro vídeo">
+      </a>
+      <a href="pag005.html">
+        <img src="images/imagem-video4.png" alt="Imagem do quarto vídeo">
+      </a>
+    </div>
+  </section>
 </body>
 </html>
